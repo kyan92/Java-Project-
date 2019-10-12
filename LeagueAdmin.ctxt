@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LeagueAdmin()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Team\n
+comment1.params=division\ team
+comment1.target=void\ addTeam(java.lang.String,\ Team)
+comment1.text=\n\ Adds\ a\ new\ team\ to\ the\ division\ \n\ checks\ whether\ team\ already\ exists\ in\ the\ divison\n\ \n
+comment2.params=division\ teamA\ teamB\ teamAScore\ teamBScore
+comment2.target=void\ recordResult(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int)
+comment2.text=\n\ records\ the\ results\ when\ two\ teams\ within\ a\ division\ face\ each\ other\n\ records\ the\ goals\ scored\n
+comment3.params=theDivision
+comment3.target=void\ printOutTable(java.lang.String)
+comment3.text=\n\ Prints\ out\ a\ all\ the\ teams\ results\ within\ each\ division\n
+numComments=4

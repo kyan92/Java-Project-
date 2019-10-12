@@ -4,34 +4,38 @@ Tell the reader (someone who does not know anything about this project)
 all he/she needs to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE: M250 TMA01 Q1
-PURPOSE OF PROJECT: To answer TMA01 Q1
-VERSION or DATE: 1.0
-HOW TO START THIS PROJECT: Open the OUWorkspace in BlueJ
-AUTHORS: M250 module team
-USER INSTRUCTIONS: use the instructions below to test your code
+PROJECT TITLE:
+PURPOSE OF PROJECT:
+VERSION or DATE:
+HOW TO START THIS PROJECT:
+AUTHORS:
+USER INSTRUCTIONS:
 
-RoomSafe room5safe = new RoomSafe();
-room5safe.getPassword(); //checking constructor - Adminadmin1
+//Sample Test Code
 
-room5safe.isValidLength("A123456"); // checking length at least 8 - false
-room5safe.isValidLength("A1234567"); // valid length - true
+LeagueAdmin leagueA = new LeagueAdmin();
 
-room5safe.hasDigit("AdminadminA"); // contains at least one digit? - false
-room5safe.hasDigit("Adminadmin1"); // contains at least one digit? - true
+Team chelsea = new Team("Chelsea","Premier");
+leagueA.addTeam("Premier", chelsea);
+Team arsenal = new Team("Arsenal","Premier");
+leagueA.addTeam("Premier", arsenal);
+Team manchesterUnited = new Team("Manchester United","Premier");
+leagueA.addTeam("Premier", manchesterUnited);
+Team wigan = new Team("Wigan Athletic","Championship");
+leagueA.addTeam("Championship", wigan);
+Team reading = new Team("Reading","Championship");
+leagueA.addTeam("Championship", reading);
+Team middlesbrough = new Team("Middlesbrough","Championship");
+leagueA.addTeam("Championship",middlesbrough);
 
-room5safe.hasUpperCase("adminadmin1"); // contains at least one upper case character? - false
-room5safe.hasUpperCase("Adminadmin1"); // contains at least one upper case character? - true
+leagueA.recordResult("Premier","Arsenal","Chelsea",2,1);
+leagueA.recordResult("Premier","Arsenal","Manchester United",2,2);
+leagueA.recordResult("Championship","Wigan Athletic","Reading",3,2);
+leagueA.recordResult("Championship","Wigan Athletic","Middlesbrough",1,1);
+leagueA.recordResult("Championship","Middlesbrough","Reading",0,1);
 
-room5safe.isValidPassword("a1abcdef"); // checking length and digit ok, uppercase not - false
-room5safe.isValidPassword("Aabcdefg"); // checking length and uppercase ok, digit not - false
-room5safe.isValidPassword("A123456"); // checking digit and uppercase ok, length not - false
-room5safe.isValidPassword("A1234567"); // checking digit, uppercase and length all ok - true
+leagueA.sortTable("Premier");
+leagueA.printOutTable("Premier");
 
-room5safe.hasChanged(); // not yet changed so should be false
-room5safe.setPassword("adminadmin"); // setting invalid password - The password adminadmin is not valid.
-room5safe.getPassword(); // checking setter did not set it - Adminadmin1
-room5safe.hasChanged(); // still not been changed so should be false
-room5safe.setPassword("Adminadmin2"); // setting valid password - The password Adminadmin2 is valid.
-room5safe.getPassword(); // checking setter did set it - Adminadmin2
-room5safe.hasChanged(); // now it's been changed so should be true
+leagueA.sortTable("Championship");
+leagueA.printOutTable("Championship");
