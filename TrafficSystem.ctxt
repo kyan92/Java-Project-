@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=aTrafficLightN\ aTrafficLightS\ aTrafficLightE\ aTrafficLightW
+comment0.target=TrafficSystem(TrafficLight,\ TrafficLight,\ TrafficLight,\ TrafficLight)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ TrafficLight\n
+comment1.params=
+comment1.target=void\ setPositions()
+comment2.params=
+comment2.target=void\ manualOverride()
+comment2.text=\n\ Provided\ method\ without\ try\ catch\ or\ the\ checking\ for\ 0-4\ state.\n\ Extra\ functionality\ is\ to\ be\ added\ to\ deal\ with\ non-integer\ \n\ or\ out\ of\ range\ inputs\n
+comment3.params=time
+comment3.target=void\ delay(int)
+comment3.text=\n\ causes\ execution\ to\ pause\ by\ time\ number\ of\ milliseconds\n
+comment4.params=aLight\ aColour
+comment4.target=void\ colourLight(TrafficLight,\ ou.OUColour)
+comment4.text=\n\ Sets\ the\ colour\ of\ the\ specified\ traafic\ light\n\ \n
+comment5.params=
+comment5.target=void\ cycleState()
+comment6.params=
+comment6.target=void\ colourAllLights()
+comment7.params=aGo
+comment7.target=void\ setGo(boolean)
+comment8.params=
+comment8.target=void\ runLights()
+numComments=9
