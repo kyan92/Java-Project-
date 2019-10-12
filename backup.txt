@@ -1,2 +1,1 @@
-Loop L = new Loop();
-L.bothEven(4,4);
+Dog d = new Dog();
