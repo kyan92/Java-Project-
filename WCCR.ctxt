@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WCCR()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ WCCR\n
+comment1.params=
+comment1.target=void\ readInEntrants()
+comment1.text=\n\ Method\ will\ prompt\ the\ user\ to\ select\ the\ appropiate\ text\ file\n\ Scanner\ will\ read\ the\ the\ file\ line\ by\ line\n\ once\ each\ line\ is\ read\ all\ detsils\ are\ then\ added\ to\ a\ new\ Object\n\ \n
+comment2.params=
+comment2.target=double\ generateTime()
+comment2.text=\n\ Method\ returns\ a\ random\ double\ value\ between\ 30.00\ (inclusive)\ and\ 60.00\ (exclusive).\n
+comment3.params=
+comment3.target=void\ runRally()
+comment3.text=\n\ \ method\ iterate\ over\ entrants,\ \n\ \ and\ for\ each\ entrant\ generate\ a\ random\ number\ between\ \n\ \ 30.00\ (inclusive)\ and\ 60.00\ (exclusive).\ \n
+comment4.params=
+comment4.target=void\ sortEntrantList()
+comment4.text=\n\ The\ method\ should\ sort\ the\ receiver\u2019s\ entrants\ list\ by\ the\ time\ each\ entrant\ \n\ has\ taken\ to\ complete\ the\ rally.\n
+comment5.params=
+comment5.target=void\ categorise()
+comment5.text=\n\ This\ method\ should\ iterate\ over\ entrants,\ populating\ the\ maps\ e1Results,\ e2Results\ and\ e3Results,\ \n\ with\ the\ correct\ names\ and\ times\ of\ entrants.\n
+numComments=6
